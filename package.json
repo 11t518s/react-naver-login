@@ -1,5 +1,5 @@
 {
-  "name": "react-naver-login",
+  "name": "react-login-by-naver",
   "version": "0.1.3-alpha1",
   "description": "A Naver Login Component for React",
   "main": "dist/index.js",
@@ -17,16 +17,16 @@
   "files": [
     "dist"
   ],
-  "author": "Teamin Moon, Peoplefund company <taemin@peoplefund.co.kr>",
+  "author": "moonseoklee -> Forked From ## Teamin Moon, Peoplefund company <taemin@peoplefund.co.kr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.cqom/peoplefund-tech/react-naver-login/issues"
+    "url": "https://github.com/moonseoklee/react-naver-login.git"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peoplefund-tech/react-naver-login.git"
+    "url": "git+https://github.com/moonseoklee/react-naver-login.git"
   },
-  "homepage": "https://github.com/peoplefund-tech/react-naver-login",
+  "homepage": "https://github.com/moonseoklee/react-naver-login.git",
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "rollup -c"

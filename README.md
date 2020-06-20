@@ -1,11 +1,12 @@
 # React Naver Login
 
 > A Naver oAuth Log-in Component for React
+> tmmoond8 님이 개발하신 모듈입니다//
 
 
 ## Install
 ```
-npm install react-naver-login
+npm install react-login-by-naver
 ```
 ## How to use
 ---
@@ -18,7 +19,7 @@ If you have not yet registered your application, you must go to A and register y
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import NaverLogin from 'react-naver-login';
+import NaverLogin from 'react-login-by-naver';
 
 ReactDOM.render(
   <NaverLogin 
@@ -66,7 +67,7 @@ You can also access the returned values via the following properties on the retu
 ---
 **1. Clone the project**
 ```
-$ git clone https://github.com/peoplefund-tech/react-naver-login.git
+$ git clone https://github.com/moonseoklee/react-naver-login.git
 ```
 **2. Install packages from npm**
 ```
