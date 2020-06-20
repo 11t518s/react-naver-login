@@ -46,7 +46,7 @@ var NAVER_ID_SDK_URL = 'https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.
  * @param props
  */
 var initLoginButton = function (props) {
-    if (!('browser' in process)) {
+    if (('browser' in process)) {
         return;
     }
     var clientId = props.clientId, callbackUrl = props.callbackUrl, onSuccess = props.onSuccess, onFailure = props.onFailure;
@@ -105,7 +105,7 @@ var LoginNaver = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     LoginNaver.prototype.componentDidMount = function () {
-        if (!('browser' in process)) {
+        if (('browser' in process)) {
             return;
         }
         // 네이버 로그인 버튼을 먼저 붙인 후 스크립트 로드하고 초기화를 해야 한다.
