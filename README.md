@@ -1,7 +1,7 @@
 # React Naver Login
 
 > A Naver oAuth Log-in Component for React
-> tmmoond8 님이 개발하신 모듈입니다//
+## tmmoond8 님이 개발하신 모듈입니다
 
 
 ## Install
