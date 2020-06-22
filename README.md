@@ -1,5 +1,8 @@
 ## [원본](https://www.npmjs.com/package/react-naver-login) 님이 개발하신 모듈을 수정하였습니다.
 
+### 수정 내용
+##### [원본](https://www.npmjs.com/package/react-naver-login) 모듈에서 firstchild 관련 undefined error가 발생하여 if(!process.browser) 구문을 if(typeof window===undefined) 로 수정하였습니다.
+
 # React-Login-By-Naver
 
 > A Naver oAuth Log-in Component for React
