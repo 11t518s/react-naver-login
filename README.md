@@ -1,8 +1,8 @@
-# React Naver Login
+## [원본](https://www.npmjs.com/package/react-naver-login) 님이 개발하신 모듈을 수정하였습니다.
+
+# React-Login-By-Naver
 
 > A Naver oAuth Log-in Component for React
-## tmmoond8 님이 개발하신 모듈입니다
-
 
 ## Install
 ```
@@ -23,8 +23,8 @@ import NaverLogin from 'react-login-by-naver';
 
 ReactDOM.render(
   <NaverLogin 
-    clientId="sdffdNNFDSjsddiosd"
-    callbackUrl="http://127.0.0.1:3000/login"
+    clientId="ClientIdFromNaverDeveloperCenter"
+    callbackUrl="http://127.0.0.1:3000/login(callback url U set in naver developer center"
     render={(props) => <div onClick={props.onClick}>Naver Login</div>}
     onSuccess={(naverUser) => console.log(naverUser)}
     onFailure={() => console.error(result)}
