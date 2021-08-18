@@ -55,7 +55,7 @@ var initLoginButton = function (props) {
     var naverLogin = new naver.LoginWithNaverId({
         callbackUrl: callbackUrl,
         clientId: clientId,
-        isPopup: true,
+        isPopup: false,
         loginButton: { color: "green", type: 3, height: 60 },
     });
     naverLogin.init();
